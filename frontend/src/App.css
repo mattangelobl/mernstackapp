@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d63230;
+  background-image: linear-gradient(319deg, #d63230 0%, #f39237 37%, #97cc04 100%);
+  font-family: 'Poppins';
+  
+}
+
+.margin-page{
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.content{
+  margin-top: 15%;
+}
+
+.content h1{
+  color: #81580a;
+  text-shadow: 1px .5px green;
+}
+
+.container{
+  margin: 1% auto;
+  border: 1px solid rgb(122, 122, 122);
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  height: 350px;
+}
+
+.login-form{
+  padding: 1rem;
+  margin-top: 5%;
+}
+
+.login-form input{
+  width: 80%;
+  border: .5px solid gray;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+.login-form button{
+  font-size: 18px;
+  width: 60%;
+  padding: 5px 10px;
+  margin: 10px 0;
+  height: 30%;
+  background: green;
+}
+.login-form button:hover{
+  cursor: pointer;
+  background: #688a0d;
+}
+.login-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-text{
+  color: blue;
+  text-decoration-line: underline;
+  margin-top: 8px;
+  font-size: 16px;
+}
+.signup-text:hover{
+  cursor: pointer;
+}
+
+/* MODAL CSS */
+.modal {
+  /* display: none; */
+  margin: 0 auto;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #e5e6e7 0%, #f5f7fa 74%);
+  
+}
+.modal-content{
+  margin: 10% auto;
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  width: 500px;
+}
+.modal-content input{
+  width: 60%;
+  border: .5px solid gray;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+.modal-content h2{
+  margin-top: 5%;
+  color: #fcb900;
+  text-shadow: 1px 1px rgb(128, 87, 0);
+}
+.signup-button{
+  font-size: 18px;
+  width: 60%;
+  padding: 10px 10px;
+  margin: 10px 0;
+  height: 30%;
+  background: orange;
+}
+.signup-button:hover{
+  cursor: pointer;
+  background: rgb(245, 179, 56);
+}
+.close-modal{ 
+  position: relative;
+  top: 15px; 
+  left: 40%; 
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
